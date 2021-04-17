@@ -1,0 +1,175 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  .top-wrapper {
+    background-image:url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size:cover;
+    padding:180px 0px 100px 0px;
+    text-align:center;
+   }
+
+/* Write your code below */
+.header{
+      background-color:burlywood;
+     color:black;
+     height:150px;
+ }
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+}
+
+.header-list{
+  float:left;
+}
+
+.header-list li{
+  float:left;
+  padding:33px 20px;
+}
+
+.copy-container h1{
+    font-size:100px;
+  }
+  .copy-container h2{
+    font-size:60px;
+  }
+  
+  .main{
+    padding:100px 80px;
+  }
+  
+  span{color:RED;
+  }
+
+  .contents {
+    margin-top:100px;
+    height:500px;
+   }
+
+   .section-title{
+    font-size:28px;
+    padding-bottom:15px;
+    margin-bottom:50px;
+    border:2px solid #dee7ec;
+  }
+
+  .contact-form{
+    padding-top:100px;
+  }
+  
+  input, textarea{
+    margin-bottom:30px;
+    padding: 20px;
+    width:400px;
+    margin-top:10px;
+    font-size:18px;
+    border:2px solid red;
+  }
+  
+  .contact-submit{
+    background-color:grey;
+    color:black;
+    }
+
+    .footer{
+        height:120px;
+         padding:40px;
+         background-color:green;
+         color:#fff;
+       }
+       
+       .footer-logo{
+         font-size:24px;
+         float:left;
+       }
+     
+     .footer-list{
+      
+       float:right;
+     }
+     
+     .footer-list li{
+       padding-bottom:20px;
+     }
+  
+
+  .contents-item p{
+    margin-top:30px;
+    font-size:38px;
+  }
+   
+
+  .header-right{
+    float:right;
+    background-color:rgba(255,255,200,0.3);
+    transition:all 0.5s;
+  }
+  
+  .header-right:hover{
+    background-color:rgba(255,255,255,0.5);
+  }
+  
+  .header-right a{
+    padding:0 25px;
+    line-height:65px;
+    color:white;
+    display:block;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 03px 20px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 3px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  h1 {
+    color: red;
+  }
+  
+  /*  a breakpoint at max-width: 1000px */
+  @media (max-width:1000px) {
+   /* color property to blue */
+    h1{color:blue;
+    }
+  }
+  
+  /*  a breakpoint at max-width: 670px */
+  @media (max-width:670px) {
+    /*  color property to green */
+    h1{color:green;
+    }
+    
+  }
